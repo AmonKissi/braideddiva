@@ -4,29 +4,81 @@ import ViewCounter from '@/components/view-counter'
 import { Suspense } from 'react'
 import ExpandingArrow from '@/components/expanding-arrow'
 
+
+
 export const dynamic = 'force-dynamic'
 
 export default function Home() {
+
+
+
+
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center">
+       {/* LOGO */}
+       <div className="mb-3 mt-10 text-center">
+          <Image
+            src="/img/logo.png" // Replace with your logo image path
+            alt="Your Logo"
+            width={300} // Adjust the width as needed
+            height={300} // Adjust the height as needed
+          />
+        </div>
+        {/* LOGO  */}
+        {/* Social Media Icons */}
+        <div className="flex space-x-2">
+          {/* Email */}
+          <a href="mailto:book@braideddiva.com" className="text-gray-600 hover:text-black transition-colors">
+            <Image  src="/img/socials/email.png" alt="Socials"  width={30} height={30}/>
+          </a>
+          {/* TikTok */}
+          <a href="https://www.tiktok.com/@__dessycakes" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-black transition-colors">
+          <Image  src="/img/socials/tiktok.png" alt="Socials"  width={30} height={30}/>
+          </a>
+          {/* YouTube */}
+          <a href="/coming-soon.html" target="_blank" rel="noopener noreferrer" 
+          className="text-gray-600 hover:text-black transition-colors">
+          <Image  src="/img/socials/youtube.png" alt="Socials"  width={30} height={30}/>
+          </a>
+          {/* Instagram */}
+          <a href="https://www.instagram.com/braideddiva/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-black transition-colors">
+          <Image  src="/img/socials/instagram.png" alt="Socials"  width={30} height={30}/>
+          </a>
+        </div>
+        {/* Social Media Icons */}
+
+
       <Link
-        href="https://vercel.com/templates/next.js/kv-redis-starter"
-        className="group mt-20 sm:mt-0 rounded-full flex space-x-1 bg-white/30 shadow-sm ring-1 ring-gray-900/5 text-gray-600 text-sm font-medium px-10 py-2 hover:shadow-lg active:shadow-sm transition-all"
+        href="https://braideddiva.square.site/" target="_blank"
+        className="group mt-8 sm:mt-5 rounded-full flex space-x-1 bg-white/30 shadow-sm ring-1 ring-gray-900/5 text-gray-600 text-sm font-medium px-10 py-2 hover:shadow-lg active:shadow-sm transition-all"
       >
-        <p>Deploy your own to Vercel</p>
+       
+        <p>Book Now</p>
         <ExpandingArrow />
       </Link>
-      <h1 className="pt-4 pb-8 bg-gradient-to-br from-black via-[#171717] to-[#575757] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
-        KV on Vercel
-      </h1>
+
+      {/* WELCOME  */}
+
+      {/* <h1 className="pt-4 pb-8 bg-gradient-to-br from-black via-[#171717] to-[#575757] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
+        Welcome
+      </h1> */}
+      <div className='mb-5 mt-3'>
+      <Image src="/img/welcome.gif" width="280"  height="93"  alt="welcome" /></div>
+
+      {/* WELCOME  */}
+
+      {/* ABOUT  */}
+
+     
+
       <div className="bg-white/30 p-12 shadow-xl ring-1 ring-gray-900/5 rounded-lg backdrop-blur-lg max-w-xl mx-auto w-full">
         <div className="flex justify-between items-center mb-4">
           <div className="space-y-1">
             <h2 className="text-xl font-semibold">
-              Announcing Vercel KV for Redis
+              About Us
             </h2>
             <p className="text-sm text-gray-500">
-              The best description in the world
+             📍 Houston, Texas
             </p>
           </div>
           <Suspense>
@@ -36,59 +88,64 @@ export default function Home() {
         </div>
         <div className="flex flex-col space-y-4">
           <p className="text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+          <strong>Braided Diva</strong> is a thriving beauty company with its roots firmly planted in the vibrant city of Houston, Texas. 
+          Founded by the talented and passionate Desiree Wilson approximately six years ago, our company has become a shining beacon in the world of professional braids. 
           </p>
           <p className="text-gray-600">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+          With a dedication to artistry and a commitment to enhancing natural beauty, <strong>Braided Diva</strong> has steadily gained recognition and trust among clients seeking exquisite and innovative braiding styles. 
+          We take pride in transforming everyday hair into stunning works of art, making each client feel like a true diva. 
+          Join us on this remarkable journey of hair transformation, where expertise, creativity, and a touch of Texan flair come together to make every braid a masterpiece.
           </p>
         </div>
       </div>
+       
+
+
+      {/* ABOUT  */}
+
       <p className="font-light text-gray-600 w-full max-w-lg text-center mt-6">
-        <Link
-          href="https://vercel.com/kv"
+        <a
+          href="#"
           className="font-medium underline underline-offset-4 hover:text-black transition-colors"
         >
-          Vercel KV for Redis
-        </Link>{' '}
-        demo. Built with{' '}
+          © 2023 Braided Diva
+        </a>{' '}
+        |{' '}
         <Link
-          href="https://nextjs.org/docs"
+          href="/refund-policy.html"
           className="font-medium underline underline-offset-4 hover:text-black transition-colors"
         >
-          Next.js App Router
+          All Rights Reserved 
         </Link>
         .
       </p>
-      <div className="sm:absolute sm:bottom-0 w-full px-20 py-10 flex justify-between">
-        <Link href="https://vercel.com">
+      <div className="mt-3 sm:absolute sm:bottom-0 w-full px-20 py-10 flex justify-between">
+        <Link href="/privacy-policy.html"
+        className="flex items-center space-x-2">
           <Image
-            src="/vercel.svg"
-            alt="Vercel Logo"
-            width={100}
-            height={24}
-            priority
-          />
-        </Link>
-        <Link
-          href="https://github.com/vercel/examples/tree/main/storage/kv-redis-starter"
-          className="flex items-center space-x-2"
-        >
-          <Image
-            src="/github.svg"
-            alt="GitHub Logo"
+            src="/img/insurance.png"
+            alt="Privacy"
             width={24}
             height={24}
             priority
+          /> <p className="font-light">Privacy Policy</p>
+          
+        </Link>
+        <Link
+          href="/refund-policy.html"
+          className="flex items-center space-x-2"
+        >
+          <Image
+            src="/img/card.png"
+            alt="GitHub Logo"
+            width={26}
+            height={26}
+            priority
           />
-          <p className="font-light">Source</p>
+          <p className="font-light">Refund Policy</p>
         </Link>
       </div>
+      <div className='mb-10'></div>
     </main>
   )
 }
