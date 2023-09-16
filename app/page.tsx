@@ -17,7 +17,7 @@ export default function Home() {
           width={300} // Adjust the width as needed
           height={300} // Adjust the height as needed
         />
-          {/* <Image
+          <Image
           src="/img/logo2.png" // Replace with your logo image path
           alt="Your Logo"
           width={300} // Adjust the width as needed
@@ -64,7 +64,7 @@ export default function Home() {
           alt="Your Logo"
           width={300} // Adjust the width as needed
           height={300} // Adjust the height as needed
-        /> */}
+        />
       </div>
       {/* LOGO  */}
       {/* Social Media Icons */}
