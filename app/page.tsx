@@ -17,6 +17,54 @@ export default function Home() {
           width={300} // Adjust the width as needed
           height={300} // Adjust the height as needed
         />
+          <Image
+          src="/img/logo2.png" // Replace with your logo image path
+          alt="Your Logo"
+          width={300} // Adjust the width as needed
+          height={300} // Adjust the height as needed
+        />
+          <Image
+          src="/img/logo3.png" // Replace with your logo image path
+          alt="Your Logo"
+          width={300} // Adjust the width as needed
+          height={300} // Adjust the height as needed
+        />
+          <Image
+          src="/img/logo4.png" // Replace with your logo image path
+          alt="Your Logo"
+          width={300} // Adjust the width as needed
+          height={300} // Adjust the height as needed
+        />
+          <Image
+          src="/img/logo5.png" // Replace with your logo image path
+          alt="Your Logo"
+          width={300} // Adjust the width as needed
+          height={300} // Adjust the height as needed
+        />
+          <Image
+          src="/img/logo6.png" // Replace with your logo image path
+          alt="Your Logo"
+          width={300} // Adjust the width as needed
+          height={300} // Adjust the height as needed
+        />
+          <Image
+          src="/img/logo7.png" // Replace with your logo image path
+          alt="Your Logo"
+          width={300} // Adjust the width as needed
+          height={300} // Adjust the height as needed
+        />
+          <Image
+          src="/img/logo8.png" // Replace with your logo image path
+          alt="Your Logo"
+          width={300} // Adjust the width as needed
+          height={300} // Adjust the height as needed
+        />
+          <Image
+          src="/img/logo9.png" // Replace with your logo image path
+          alt="Your Logo"
+          width={300} // Adjust the width as needed
+          height={300} // Adjust the height as needed
+        />
       </div>
       {/* LOGO  */}
       {/* Social Media Icons */}
