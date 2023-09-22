@@ -1,4 +1,7 @@
 ---
+BRAIDED DIVA
+
+---
 name: Vercel KV for Redis Next.js Starter
 slug: kv-redis-starter
 description: Simple Next.js template that uses Vercel KV for Redis to track pageviews.
