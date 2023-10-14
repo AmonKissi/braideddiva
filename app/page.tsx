@@ -160,7 +160,7 @@ export default function Home() {
           <span className="btn__invisible">Visit Website</span>
         </button>
       </div></Link>
-      <Link href="https://braideddiva.square.site/" >
+      <Link href="https://braideddiva.creator-spring.com/" >
       <div className='mb-5'>
         <button className="btn">
           <span className="btn__visible">Shop Braided products 💇🏽‍♀️</span>
