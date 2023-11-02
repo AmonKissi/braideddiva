@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Forwarding Page</title>
+</head>
+<body>
+    <p>You will be redirected to the destination site in a moment.</p>
+    
+    <!-- Create a link with the "href" attribute pointing to the target URL -->
+    <a id="redirectLink" href="https://braideddiva.square.site/">Click here if you are not redirected.</a>
+    
+    <!-- Add JavaScript to automatically redirect after a delay -->
+    <script>
+        // Redirect to the target URL after a specified delay (in milliseconds)
+        const targetUrl = "https://braideddiva.square.site/";
+        const delayInSeconds = 0; // Change this to the desired delay in seconds
+        const redirectLink = document.getElementById("redirectLink");
+
+        function redirectToTarget() {
+            window.location.href = targetUrl;
+        }
+
+        // Automatically redirect after the specified delay
+        setTimeout(redirectToTarget, delayInSeconds * 1000);
+    </script>
+</body>
+</html>
