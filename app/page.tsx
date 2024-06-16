@@ -153,7 +153,7 @@ export default function Home() {
       {/* WELCOME  */}
 
       {/* BUTTONS  */}
-     <Link href="https://dess.braideddiva.com" >
+     <Link href="./home/index.html" >
       <div className='mb-5'>
         <button className="btn">
           <span className="btn__visible">Braided Diva Official 💻</span>
