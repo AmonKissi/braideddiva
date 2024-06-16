@@ -77,7 +77,7 @@ export default function Home() {
       <div className="flex space-x-2">
         {/* Email */}
         <a
-          href="mailto:book@braideddiva.com"
+          href="mailto:book@braideddiva.net"
           className="text-gray-600 hover:text-black transition-colors"
         >
           <Image
